@@ -4,12 +4,9 @@ A comprehensive full-stack MERN application that allows users to share, discover
 
 ## 🚀 Live Demo
 
-- **Frontend**: [Deployed on Vercel](https://recipe-share-app.vercel.app)
-- **Backend**: [Deployed on LeapCell](https://leapcell.io/)
-
-### 📹 Video Demo
-
-🎥 **[Watch Interactive Demo](https://app.supademo.com/demo/cmdabc3cj0b4z10or5ss8vcny)**
+- **Frontend**: [Deployed on Vercel](https://sawe-recipe-share.vercel.app/)
+- **Backend**: [Api deployed on Railway](https://recipe-share-frontend-production.up.railway.app/)
+- **Watch Interactive Demo  [5 minutes Video](https://app.supademo.com/demo/cmdabc3cj0b4z10or5ss8vcny)**
 
 Experience the full RecipeShare application with this interactive demo showcasing all features including recipe creation, search, user profiles, and more!
 
