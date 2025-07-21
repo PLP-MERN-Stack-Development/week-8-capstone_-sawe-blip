@@ -1,0 +1,37 @@
+{
+  "name": "recipe-share-fullstack",
+  "version": "1.0.0",
+  "description": "Recipe Sharing Platform - MERN Stack Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "test": "node run-tests.js",
+    "test:server": "cd server && npm test",
+    "test:client": "cd client && npm test",
+    "test:ci": "npm run test:server && npm run test:client",
+    "test:setup": "node test-env.js",
+    "start": "cd server && npm start",
+    "seed": "node seed-data.js"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "recipe",
+    "fullstack"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
+}
